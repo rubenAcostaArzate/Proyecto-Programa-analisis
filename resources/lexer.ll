@@ -71,7 +71,6 @@ Negacion !
 Ampersand &
 True verdadero
 False falso
-modo_troste
 
 
 
