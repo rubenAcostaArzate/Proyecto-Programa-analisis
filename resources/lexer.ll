@@ -19,7 +19,7 @@ lit_flotante ([0−9](_?[0−9])*)?.[0−9]*((e∣E)(+∣−)?[0−9](_?[0−9])
 runas   ’([a-zA-Zá-źA-Źä-üÄ-ÜñÑ] | \[abfnrtv \’ "])’
 cadenas "([a-zA-Zá-źA-Źä-üÄ-ÜñÑ] | \[abfnrtv \’ "])*"
 espacio [ \t\v\r]
-comentarios (//[∧/n]∗∣/ ∗ ([∧∗]∣ ∗ ∗∗[∧/∗])∗ ∗ /)
+comentarios (//[∧/n]*∣ /\* ([∧\*] ∣(\*\*)*[∧/\*])* \*/)
 
 Proto proto
 PyC ;
